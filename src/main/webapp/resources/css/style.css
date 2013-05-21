@@ -1,0 +1,210 @@
+body {
+	font-family: Arial;	
+}
+
+.body {
+	min-height: 460px;
+}
+
+a {
+	color: white;
+}
+
+.table {
+	font-family: Arial;	
+}
+
+.item {
+	float: left;
+	padding: 5px;
+	background-color: gray;
+	margin: 5px;
+	min-width: 50px;
+	text-align: center;
+}
+
+.item a {
+	text-decoration: none;
+}
+
+.footer {
+	background-color: gray;
+	padding: 10px;	
+}
+
+.inventory {
+	padding-bottom: 20px;	
+}
+
+.inventory .item {
+	max-width: 100px;	
+}
+
+.inventory .image {
+	width: 100px;
+	height: 100px;
+	background-color: silver;
+	overflow: hidden;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.detail .image {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.detail .order {
+	text-align: right;
+}
+
+.order input {
+	height: 30px;
+}
+
+.adjust input {
+	height: 30px;
+	width: 30px;
+	margin: 2px;
+}
+
+input[type="submit"] {
+	border: none;	
+	cursor: pointer;
+}
+
+input[type="submit"]:ACTIVE {
+	border: none;	
+	background-color: lightgray;
+}
+
+#quantity {
+	padding: 5px;
+	text-align: right;	
+}
+
+#message {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: right;	
+}
+
+.inventory .image img {
+	width: 100%;
+}
+
+.detail {
+	float: left;
+	padding: 5px;
+	background-color: gray;
+	margin: 5px;
+	min-width: 50px;
+	margin-bottom: 20px;
+}
+
+.form {
+	padding-top: 5px;
+	margin: 0;	
+}
+
+.cart {
+	padding-bottom: 20px;
+}
+
+.cart .item {
+	vertical-align: middle;	
+}
+
+.cart .image {
+	width: 50px;
+	height: 50px;
+	background-color: silver;
+	overflow: hidden;
+	float: left;
+}
+
+.cart .image img {
+	width: 100%;
+}
+
+
+.cart .code {
+	float: left;
+	padding: 10px;
+	min-width: 100px;
+	text-align: left;
+}
+
+.cart .name {
+	float: left;
+	padding: 10px;
+	min-width: 200px;
+	text-align: left;
+}
+
+.cart .name h3 {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	min-width: 200px;
+}
+
+.cart .price {
+	float: left;
+	padding: 10px;
+	min-width: 150px;
+	text-align: right;
+}
+
+.cart .quantity {
+	float: left;
+	padding: 10px;
+	min-width: 200px;
+	text-align: right;
+}
+
+.cart .ordered {
+	float: left;
+	padding: 10px;
+	min-width: 200px;
+	text-align: right;
+}
+
+.cart .adjust {
+	float: left;
+}
+
+.cart .buttom {
+	_border: solid 1px black;
+	_background-color: white;
+	width: 20px;
+	height: 20px;
+	_text-align: center;
+	margin: 2px;
+}
+
+.cart #message {
+	text-align: left;
+}
+
+.item h3, .detail h2 {
+	margin: 5px;
+	color: white;
+}
+
+.detail .info {
+	text-align: center;
+}
+
+.item .image_total {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	float: left;
+}
+
+.cart .placeholder_buttom {
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	margin: 2px;
+}
